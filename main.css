@@ -1,21 +1,21 @@
-body{ 
-    .fascinate-inline-regular {
-        font-family: "Fascinate Inline", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
+.Instagram-button {
+    background-color: rgb(248, 40, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: box-shadow 0.15s;
 }
-h1{
-    .fascinate-inline-regular {
-        font-family: "Fascinate Inline", serif;
-        font-weight: 400;
-        font-style: normal;
+.Instagram-button:hover {
+box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
 }
-}
-h2{
-    .fascinate-inline-regular {
-        font-family: "Fascinate Inline", serif;
-        font-weight: 400;
-        font-style: normal;
-}
+.instagram-button:active {
+    opacity: 0.7;
 }
