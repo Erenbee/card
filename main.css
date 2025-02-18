@@ -1,3 +1,13 @@
+body{
+    background-image: url("images/backgroundwithmoon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+  }
+
 .Instagram-button {
     background-color: rgb(248, 40, 255);
     color: white;
@@ -19,3 +29,166 @@ box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
 .instagram-button:active {
     opacity: 0.7;
 }
+
+h1{ 
+    font-family: "Fascinate Inline", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+h2{
+    font-family: "Big Shoulders Inline Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+  
+svg{
+    fill:white;
+}
+.card {
+    width: 30%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+
+.icon-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* svg style for card */
+  .cls-1 {
+    fill: #d6bda1;
+  }
+
+  .cls-2 {
+    font-size: 49.9px;
+    letter-spacing: .01em;
+  }
+
+  .cls-2, .cls-3, .cls-4, .cls-5 {
+    fill: #231f20;
+  }
+
+  .cls-2, .cls-4 {
+    font-family: FascinateInline-Regular, 'Fascinate Inline';
+  }
+
+  .cls-6 {
+    fill: #ccc8c4;
+  }
+
+  .cls-7 {
+    stroke: #fff;
+  }
+
+  .cls-7, .cls-8, .cls-9 {
+    fill: none;
+  }
+
+  .cls-7, .cls-8, .cls-9, .cls-5 {
+    stroke-miterlimit: 10;
+  }
+
+  .cls-10 {
+    fill: #5c5c5c;
+  }
+
+  .cls-8 {
+    stroke: #000;
+  }
+
+  .cls-8, .cls-9 {
+    stroke-width: 1.5px;
+  }
+
+  .cls-11 {
+    fill: #fff;
+  }
+
+  .cls-4 {
+    font-size: 28.07px;
+    letter-spacing: .01em;
+  }
+
+  .cls-9, .cls-5 {
+    stroke: #231f20;
+  }
+
+  .cls-12 {
+    fill: #999897;
+  }
+
+  .cls-13 {
+    fill: #7b1226;
+  }
+
+  .cls-5 {
+    stroke-width: .25px;
+  }
+
+
+  /* star animations */
+
+  #star1 {
+    animation: twinkle 2s infinite;
+  }
+
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  #star2 {
+    animation: twinkle 12s infinite;
+  }
+
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  #star3 {
+    animation: twinkle 5s infinite;
+  }
+
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  /* for mobile settings */
+  @media screen and (max-width: 700px) {
+    .card {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        justify-content: center;
+    }
+    
+  }
