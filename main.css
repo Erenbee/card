@@ -190,5 +190,9 @@ svg{
         display: grid;
         justify-content: center;
     }
-    
+    .icon-container{
+        display: grid;
+        width:60%;
+       
+    }
   }
