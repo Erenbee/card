@@ -248,7 +248,7 @@ svg{
       grid-gap: 10px;
       margin: 10px;
       width: 50%;
-      height: 20%;
+      height: 17%;
       justify-content: center;
       align-items: center;
       position: absolute;
@@ -274,7 +274,7 @@ svg{
       justify-content: center;
       align-items: center;
       position: absolute;
-      top: 35px;
+      top: 20px;
       transform: translate(-50%);
       white-space: nowrap;
   }
