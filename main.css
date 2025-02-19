@@ -257,7 +257,7 @@ svg{
     h1{ 
       font-size: 35px;
       top: 0px;
-      left: 33%;
+      left: 50%;
       color: white;
       margin: 3px;
       justify-content: center;
@@ -270,7 +270,7 @@ svg{
   h2{
     font-size: 20px;
     font-weight: 200;
-    left: 35%;
+    left: 50%;
     color: white;
     margin: 3px;
     justify-content: center;
