@@ -231,6 +231,15 @@ svg{
         margin: 0 auto;
         display: grid;
         justify-content: center;
+        position:absolute;
+        position: fixed;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        margin-bottom: 40px; /*ensure the card svg is above the icons*/
+        display: grid;
+        justify-content: center;
     }
     .icon-container{
       display: grid;
