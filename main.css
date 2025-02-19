@@ -85,8 +85,8 @@ svg{
     transform: translate(-50%, -50%);
     z-index: 1;
     margin-bottom: 40px; /*ensure the card svg is above the icons*/
-    width: 600px; /*keeps the card centered*/
-    height: 900px; /*keeps the card centered*/
+    width: 500px; /*keeps the card centered*/
+    height: 500px; /*keeps the card centered*/
     display: grid;
     justify-content: center;
 }
