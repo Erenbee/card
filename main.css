@@ -1,8 +1,8 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 body{
     background-image: url("images/backgroundwithmoon.svg");
@@ -40,7 +40,7 @@ h1{
     font-family: "Fascinate Inline", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 70px;
+    font-size: 65px;
     color: white;
     margin: 10px;
     width: 300px;
@@ -49,9 +49,10 @@ h1{
     align-items: center;
     position: absolute;
     top: 0px;
-    left: 51%;
+    left: 45%;
     transform: translate(-50%);
     white-space: nowrap;
+    margin-bottom: 200px;
 }
 h2{
     font-family: "Big Shoulders Inline Text", serif;
@@ -60,7 +61,7 @@ h2{
     font-style: normal;
     font-size: 30px;
     color: white;
-    margin: 10px;
+    /* margin: 10px; */
     width: 300px;
     height: 100px;
     justify-content: center;
@@ -274,6 +275,7 @@ svg{
   }
   h2{
     font-size: 20px;
+    font-weight: 200;
     left: 35%;
     color: white;
     margin: 3px;
