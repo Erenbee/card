@@ -246,4 +246,25 @@ svg{
       z-index: 2;
        
     }
+
+    h1{ 
+      font-size: 20px;
+      top: 0px;
+      left: 51%;
+      transform: translate(-50%);
+      white-space: nowrap;
+  }
+  h2{
+      
+      font-size: 15px;
+      /* width: 300px;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      position: absolute; */
+      /* top: 10px; */
+      /* left: 50%; */
+      white-space: nowrap;
+      
+  }
   }
