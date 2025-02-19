@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
     background-image: url("images/backgroundwithmoon.svg");
     background-repeat: no-repeat;
@@ -268,7 +274,7 @@ svg{
       grid-template-columns: 50fr 1fr 1fr;
       grid-template-rows: auto;
       grid-gap: 20px;
-      margin: 10px;
+      margin: 3px;
       width: 125px;
       height: 50px;
       justify-content: center;
@@ -286,7 +292,7 @@ svg{
     grid-template-columns: 50fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 20px;
-    margin: 10px;
+    margin: 3px;
     width: 125px;
     height: 50px;
     justify-content: center;
