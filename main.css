@@ -250,8 +250,8 @@ svg{
       justify-content: center;
       align-items: center;
       position: absolute;
-      bottom: 0%;
-      left: 50%;
+      bottom: -1%;
+      left: 47%;
       transform: translate(-50%);
       z-index: 2;
        
@@ -260,7 +260,7 @@ svg{
     h1{ 
       font-size: 35px;
       top: 0px;
-      left: 50%;
+      left: 33%;
       color: white;
       margin: 3px;
       width: 125px;
@@ -274,7 +274,7 @@ svg{
   }
   h2{
     font-size: 20px;
-    left: 50%;
+    left: 35%;
     color: white;
     margin: 3px;
     width: 125px;
