@@ -237,7 +237,7 @@ svg{
         left:50%;
         transform: translate(-50%, -50%);
         z-index: 1;
-        margin-bottom: 40px; /*ensure the card svg is above the icons*/
+        margin-bottom: 20px; /*ensure the card svg is above the icons*/
         display: grid;
         justify-content: center;
     }
